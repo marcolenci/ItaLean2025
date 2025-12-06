@@ -1,7 +1,3 @@
-# ItaLean 2025
-
-This repository contains the resources for the conference [*ItaLean 2025: Bridging Formal Mathematics and AI*](https://pitmonticone.github.io/ItaLean2025/) held in Bologna, Italy, December 9–12, 2025.
-
 [![ItaLean](images/ItaLean2025_banner.png)](https://pitmonticone.github.io/ItaLean2025/)
 
 ## Install Lean 
