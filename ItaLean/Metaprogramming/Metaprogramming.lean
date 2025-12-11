@@ -1,4 +1,9 @@
-import ItaLean.Damiano.ShadyAuxLemmas
+/-
+Copyright (c) 2025 Damiano Testa. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Damiano Testa
+-/
+import ItaLean.Metaprogramming.ShadyAuxLemmas
 
 /-
 I was going to give a metaprogramming talk, but then I found a proof of Fermat's Last Theorem,

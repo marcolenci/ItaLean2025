@@ -1,4 +1,9 @@
-import ItaLean.Damiano.Inspect
+/-
+Copyright (c) 2025 Damiano Testa. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Damiano Testa
+-/
+import ItaLean.Metaprogramming.Inspect
 
 open Lean Elab Command Tactic
 #allow_unused_tactic! Parser.Tactic.runTac

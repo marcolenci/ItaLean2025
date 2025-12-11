@@ -1,3 +1,8 @@
+/-
+Copyright (c) 2025 Riccardo Brasca. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Riccardo Brasca
+-/
 import Mathlib
 
 /-!
@@ -115,7 +120,7 @@ example (u v : (𝓞 K)ˣ) : (u / v : 𝓞 K) + 1 = (u : K) / ((v : 𝓞 K) : K)
 
 /- Note that `ℤ` is *not* `𝓞 ℚ`, in the sense that these two types are not equal (we of course have
 the isomorphism). If you need to prove theorems about the trace/norm it is important to use the
-carateristic predicate `IsIntegralClosure`.
+characteristic predicate `IsIntegralClosure`.
 
 We indeed also have `RingOfIntegers.norm`, that should probably be removed. -/
 
@@ -190,11 +195,9 @@ extension of `ℚ`) of discriminant bounded by `N`. -/
 #check NumberField.finite_of_discr_bdd
 
 /- How can *you* contribute?
-
 * Take your favorite number theoretic object and try to compute some invariant explicitly! For example
 the decomposition of an ideal, ring of integers, class group etc
 * Results about cyclotomic fields: in particular we are missing the theory of *real* cyclotomic fields
   (let's prove FLT for `n < 37`!)
 * The LeanBridge project by Chris Birkbeck
-
-  -/
+-/

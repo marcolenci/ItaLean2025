@@ -1,3 +1,8 @@
+/-
+Copyright (c) 2025 Filippo Nuccio. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Filippo Nuccio
+-/
 import Mathlib
 set_option linter.unusedVariables false
 
@@ -79,7 +84,7 @@ section Lp
 
 open MeasureTheory ENNReal Set
 
-/-! The Dirac (outer) meaesure at `π ∈ ℝ`. -/
+/-! The Dirac (outer) measure at `π ∈ ℝ`. -/
 def μD : OuterMeasure ℝ where
   measureOf := fun S ↦ S.indicator (fun _ ↦ (1 : ℝ≥0∞)) Real.pi
   empty := by simp
