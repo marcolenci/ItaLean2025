@@ -74,7 +74,7 @@ section Lp
 
 open MeasureTheory ENNReal Set
 
-/-! The Dirac (outer) meaesure at `π ∈ ℝ`. -/
+/-! The Dirac (outer) measure at `π ∈ ℝ`. -/
 def μD : OuterMeasure ℝ where
   measureOf := by sorry
   empty := by sorry
